@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2021, 9:25:57 PM
+    Author     : Minela
+*/
+
+div.middle {
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  z-index: 15;
+  top: 50%;
+  left: 41%;
+  margin: -100px 0 0 -150px;
+}
+
+.always-middle{
+    border: solid 1px black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    z-index: 100;
+    height: 400px;
+    margin-top: -200px;
+    width: 600px;
+    margin-left: -300px;
+}
+.logout-div{
+    font-size: 20px;
+    height: 30px;
+    width: 19%;
+    border: 2px solid black;
+    margin-left: 700px;
+    margin-top: 100px;
+    background-color: grey;
+    position: fixed;
+}
+div#list {
+  background-color: grey;
+  position: fixed;
+  left: 19%;
+  top: 50%;
+  color: #000;
+  overflow: scroll;
+  padding: 25px;
+  width: 80%;
+  height: 50%;
+  z-index: 15;
+  margin: -100px 0 0 -150px;
+}
+g{
+ color: white;
+ }
+.name{
+     font-size: 26px;
+    font-family: arial;
+ }
+body {
+       background-color: lightblue;
+       background-position:top center;
+       background-attachment:fixed;
+       color: black;
+       font-size: 20px;
+       font-style: bold;
+}
+a{
+  color: white;
+  text-decoration: none;
+  }
+  #result{
+      margin-left: 200px;
+      margin-top: 100px; 
+      position: fixed;
+  }
+.textbox
+    {
+    width:300px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: beige;
+    outline: none;
+    color: black
+    }
+
+.dugme{
+    height: 35px;
+    width: 302px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+}
